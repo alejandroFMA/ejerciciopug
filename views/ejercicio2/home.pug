@@ -1,0 +1,15 @@
+doctype html
+html
+   head
+      title = "Film Details"
+      link(rel="stylesheet", href="style.css")
+   body
+      form(action="/film", method="get") 
+         label(for='title') Introduce a title of a film 
+         input.search(
+            type='text'
+            name='title'
+            placeholder='Enter a title...')
+         input(type='submit')
+                                                      
+
